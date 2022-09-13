@@ -10,12 +10,10 @@ void printSpeedup(vector<string> passwords, vector<long> sequentialTimes, vector
                   vector<float> speedup, string method);
 
 int main(int argc, char* argv[]) {
-    // da rivedere meglio questa richiesta input
-    if (argc != 4) {
-        if (argc < 2) {
-            cout << "Too few arguments!" << endl;
-            return 1;
-        }
+
+    if (argc < 2) {
+        cout << "Too few arguments!" << endl;
+        return 1;
     }
 
     int runsPerPassword;

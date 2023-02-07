@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lorenzo/ParallelComputing/DESdecrypter/DictionaryAttack.h
+vector
+-
+string
+-
+fstream
+-
+
+/home/lorenzo/ParallelComputing/DESdecrypter/main.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+DictionaryAttack.h
+/home/lorenzo/ParallelComputing/DESdecrypter/DictionaryAttack.h
+
